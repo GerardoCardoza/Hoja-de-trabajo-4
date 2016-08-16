@@ -3,11 +3,12 @@
 *@version: 1.0
 *CircularLinkedList
 ******************************/
+import java.util.*;
 
 public class CircularLinkedList extends AbstractList{
 	private Node tail;
 
-	public void CircularLinkedList(){
+	public CircularLinkedList(){
 		tail = null;
 		count = 0;
 	}

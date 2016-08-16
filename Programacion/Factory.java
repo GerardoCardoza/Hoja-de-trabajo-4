@@ -3,15 +3,16 @@
 *@version: 1.0
 *Factory
 ******************************/
+import java.util.*;
 
 public class Factory{
 	private Object datos;
 
-	public void Factory(int tipo,int List){
+	public Factory(int tipo,int List){
 		if(tipo==1)
-			datos=new Vector();
+			datos=new Vector<Object>();
 		else if(tipo==2)
-			datos=new ArrayList();
+			datos=new ArrayList<Object>();
 		else
 			if(List==1)
 				datos=new SingleLikedList();

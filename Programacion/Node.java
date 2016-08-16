@@ -3,6 +3,7 @@
 *@version: 1.0
 *Node <E>
 ******************************/
+import java.util.*;
 
 public class Node{
 	protected Object value;
@@ -24,5 +25,5 @@ public class Node{
 		return next;
 	}
 
-	public void Node(){}
+	public  Node(){}
 }

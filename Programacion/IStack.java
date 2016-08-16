@@ -3,12 +3,13 @@
 *@version: 1.0
 *IStack
 ******************************/
+import java.util.*;
 
 public interface IStack{
 	public void push(Object o);
 	public int size();
 	public Object pop();
-	public boolean isEmpty():
+	public boolean isEmpty();
 	public void clear();
 	public Object getLast();
 }

@@ -3,11 +3,12 @@
 *@version: 1.0
 *Singly Linked List
 ******************************/
+import java.util.*;
 
 public class SinglyLinkedList extends AbstractList{
 	public Node head;
 
-	public void SinglyLinkedList(){
+	public SinglyLinkedList(){
 		head = null;
 		count = 0;
 	}

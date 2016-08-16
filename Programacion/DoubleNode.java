@@ -3,6 +3,8 @@
 *@version: 1.0
 *Double Node
 ******************************/
+import java.util.*;
+
 public class DoubleNode extends Node{
 	private Node previous;
 
